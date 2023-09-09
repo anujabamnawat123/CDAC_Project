@@ -1,0 +1,176 @@
+.Page-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(''); /* Replace with your image path */
+  background-size: cover;
+  backdrop-filter: blur(10px);
+}
+
+.Centre-Login {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+  backdrop-filter: blur(10px);
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #fff7d8, #ffecd0);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  margin: auto;
+  backdrop-filter: blur(10px)
+}
+
+.login-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-label {
+  margin-bottom: 5px;
+}
+
+.login-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-group {
+  margin-top: 20px;
+  margin: auto;
+}
+
+.login-button, .forgot-password-button, .sign-up-button, .google-login-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.login-button {
+  background-color: #007bff; /* Blue color */
+  color: #fff;
+}
+
+.forgot-password-button, .sign-up-button, .google-login-button {
+  background-color: transparent;
+  color: #007bff;
+  margin: auto;
+}
+
+.forgot-password-button:hover, .sign-up-button:hover, .google-login-button:hover {
+  text-decoration: underline;
+  margin: auto;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+  backdrop-filter: blur(10px);
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  text-align: center;
+}
+
+.login-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-label {
+  margin-bottom: 5px;
+}
+
+.Login-User,
+.Login-Password {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Adjust width */
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.login-button,
+.forgot-password-button,
+.sign-up-button,
+.google-login-button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin: auto;
+}
+
+.login-button {
+  background-color: #007bff; /* Blue color */
+  color: #fff;
+  margin: auto;
+}
+
+.forgot-password-button,
+.sign-up-button,
+.google-login-button {
+  background-color: transparent;
+  color: #007bff;
+  margin: auto;
+}
+
+.forgot-password-button:hover,
+.sign-up-button:hover,
+.google-login-button:hover {
+  text-decoration: underline;
+  background-color: rgba(0, 123, 255, 0.2); /* Light blue background on hover */
+  margin: auto;
+}
+
+.sign-up-button {
+  border: 1px solid #007bff;
+  margin: auto;
+}
+
+.google-login-button {
+  border: 1px solid #007bff;
+  margin: auto;
+}
