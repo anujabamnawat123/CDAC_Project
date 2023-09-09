@@ -1,0 +1,12 @@
+react-app : 3000
+
+Java
+    user-service : 8282
+    search-service : 9001
+
+Node JS
+    tender-submit service : 7000
+
+db
+    mysql   : 3306
+    mongo db : uri 
